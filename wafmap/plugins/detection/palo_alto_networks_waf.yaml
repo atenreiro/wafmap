@@ -1,0 +1,4 @@
+name: "Palo Alto Networks WAF"
+patterns:
+  - header: "x-palo-alto-protection"
+  - header: "x-palo-alto-headers"

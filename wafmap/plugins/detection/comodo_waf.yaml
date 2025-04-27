@@ -1,0 +1,4 @@
+name: "Comodo WAF"
+patterns:
+  - header: "x-comodo-waf"
+  - header: "x-comodo-protection"

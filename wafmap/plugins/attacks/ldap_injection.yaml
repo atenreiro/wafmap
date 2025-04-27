@@ -1,0 +1,7 @@
+name: "LDAP_INJECTION"
+description: >
+  Attempts wildcard LDAP query injection.
+payloads:
+  - id: ldap_injection
+    payload: "*(|(uid=*))"
+    description: Attempts wildcard LDAP query injection.

@@ -1,0 +1,7 @@
+requests
+click 
+pytest   
+pyyaml
+prettytables
+ja4
+scapy

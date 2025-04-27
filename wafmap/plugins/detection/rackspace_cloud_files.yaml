@@ -1,0 +1,4 @@
+name: "Rackspace Cloud Files"
+patterns:
+  - header: "x-rackspace-cdn-status"
+  - header: "x-rackspace-cdn-cache"

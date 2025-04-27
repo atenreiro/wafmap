@@ -1,0 +1,7 @@
+name: "AUTH_ATTACK"
+description: >
+  Authentication bypass via SQL logic.
+payloads:
+  - id: auth_attack
+    payload: "' OR '1'='1' --"
+    description: Authentication bypass via SQL logic.

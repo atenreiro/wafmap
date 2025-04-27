@@ -1,0 +1,6 @@
+name: "Imperva"
+patterns:
+  - header: "x-imperva-protection"
+  - header: "x-cdn"
+    contains: "Imperva"
+  - header: "x-imperva-waf"

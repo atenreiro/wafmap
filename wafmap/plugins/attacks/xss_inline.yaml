@@ -1,0 +1,7 @@
+name: "XSS_INLINE"
+description: >
+  Basic reflected JavaScript injection.
+payloads:
+  - id: xss_inline
+    payload: "<script>alert('xss')</script>"
+    description: Basic reflected JavaScript injection.

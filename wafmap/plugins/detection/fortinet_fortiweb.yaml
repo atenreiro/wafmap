@@ -1,0 +1,6 @@
+name: "Fortinet FortiWeb"
+patterns:
+  - header: "x-waf-id"
+  - header: "x-waf"
+  - header: "x-fortigate"
+  - header: "x-fortinet-security"

@@ -1,0 +1,4 @@
+name: "NSFOCUS WAF"
+patterns:
+  - header: "x-nsfocus-waf"
+  - header: "x-nsfocus-protection"

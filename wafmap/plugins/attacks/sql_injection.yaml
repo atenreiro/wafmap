@@ -1,0 +1,34 @@
+# Plugin: wafmap/plugins/attacks/sql_injection.yaml
+name: SQL_Injection
+description: >
+  A basic suite of SQL-injection payloads targeting common 
+  database backends. Checks for classic boolean-based and 
+  error-based patterns.
+
+payloads:
+  - id: boolean_true
+    payload: "' OR '1'='1' -- "
+    description: Boolean-based always-true injection
+
+  - id: boolean_false
+    payload: "' AND '1'='2' -- "
+    description: Boolean-based always-false injection
+
+  - id: error_based
+    payload: "'; DROP TABLE users; -- "
+    description: Error-based injection that triggers SQL errors
+
+  - id: time_based
+    payload: "'; WAITFOR DELAY '00:00:05'; -- "
+    description: Time-based injection to detect blind SQLi
+
+match_criteria:
+  blocked_statuses: [403, 406]
+  error_signatures:
+    - "SQL syntax"
+    - "mysql_fetch"
+    - "syntax error in query"
+
+request:
+  method: GET
+  param: "id"

@@ -1,0 +1,5 @@
+name: "StackPath"
+patterns:
+  - header: "x-cache"
+  - header: "x-stackpath-cache"
+  - header: "x-stackpath-service"

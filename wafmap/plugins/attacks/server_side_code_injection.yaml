@@ -1,0 +1,7 @@
+name: "SERVER_SIDE_CODE_INJECTION"
+description: >
+  Injects server-side code template.
+payloads:
+  - id: server_side_code_injection
+    payload: "{{7*7}}"
+    description: Injects server-side code template.

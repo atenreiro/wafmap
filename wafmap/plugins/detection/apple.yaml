@@ -1,0 +1,5 @@
+name: "Apple"
+patterns:
+  - header: "x-apple-client-id"
+  - header: "x-apple-server"
+  - header: "x-apple-f5"

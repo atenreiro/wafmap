@@ -1,0 +1,4 @@
+name: "KeyCDN"
+patterns:
+  - header: "x-keycdn-cache-status"
+  - header: "x-keycdn-request-id"

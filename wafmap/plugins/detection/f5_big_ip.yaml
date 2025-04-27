@@ -1,0 +1,5 @@
+name: "F5 BIG-IP"
+patterns:
+  - header: "x-cnection-hash"
+  - header: "x-f5-forwarded-for"
+  - header: "x-f5-ssl-client-sdn"

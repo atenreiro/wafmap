@@ -1,0 +1,4 @@
+name: "SonicWall"
+patterns:
+  - header: "x-sonicwall"
+  - header: "x-sonicwall-cache"

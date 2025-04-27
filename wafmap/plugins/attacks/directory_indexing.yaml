@@ -1,0 +1,8 @@
+name: "DIRECTORY_INDEXING"
+description: >
+  Accesses open directory without index file.
+payloads:
+  - id: directory_indexing
+    payload: "/admin/"
+    description: Accesses open directory without index file.
+

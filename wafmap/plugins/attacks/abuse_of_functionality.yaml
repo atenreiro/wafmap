@@ -1,0 +1,7 @@
+name: "ABUSE_OF_FUNCTIONALITY"
+description: >
+  Uses site features to abuse access control.
+payloads:
+  - id: abuse_of_functionality
+    payload: "/logout?next=/admin"
+    description: Uses site features to abuse access control.

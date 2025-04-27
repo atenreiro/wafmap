@@ -1,0 +1,4 @@
+name: "AWS WAF"
+patterns:
+  - header: "x-amzn-waf-"
+  - header: "x-amz-security-token"

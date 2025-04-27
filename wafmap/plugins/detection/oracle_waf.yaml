@@ -1,0 +1,6 @@
+name: "Oracle WAF"
+patterns:
+  - header: "zen-host"
+  - header: "x-zen-fury"
+  - header: "x-oracle-waf"
+  - header: "x-zen-cache-status"

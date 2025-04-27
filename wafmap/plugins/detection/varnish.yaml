@@ -1,0 +1,6 @@
+name: "Varnish"
+patterns:
+  - header: "x-varnish"
+  - header: "via"
+    contains: "1.1 varnish"
+  - header: "x-varnish-cache"

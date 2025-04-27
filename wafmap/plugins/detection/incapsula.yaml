@@ -1,0 +1,5 @@
+name: "Incapsula"
+patterns:
+  - header: "x-incapsula-protection"
+  - header: "x-incapsula-cdn"
+  - header: "x-incapsula-request-id"

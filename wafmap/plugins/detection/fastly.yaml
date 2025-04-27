@@ -1,0 +1,7 @@
+name: "Fastly"
+patterns:
+  - header: "x-fastly-request-id"
+  - header: "x-served-by"
+  - header: "x-timer"
+  - header: "Fastly-Cachetype"
+  - header: "fastly-cache-status"

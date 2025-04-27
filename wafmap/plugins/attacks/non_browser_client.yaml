@@ -1,0 +1,7 @@
+name: "NON_BROWSER_CLIENT"
+description: >
+  Simulates scripted UA.
+payloads:
+  - id: non_browser_client
+    payload: "Python-urllib/3.11"
+    description: Simulates scripted UA.

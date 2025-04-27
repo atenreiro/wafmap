@@ -1,0 +1,4 @@
+name: "A10 Networks Thunder ADC"
+patterns:
+  - header: "x-a10"
+  - header: "x-thunder-adc"

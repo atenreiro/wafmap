@@ -1,0 +1,7 @@
+name: "INFORMATION_LEAKAGE"
+description: >
+  Requests potentially sensitive debug endpoint.
+payloads:
+  - id: information_leakage
+    payload: "/debug"
+    description: Requests potentially sensitive debug endpoint.

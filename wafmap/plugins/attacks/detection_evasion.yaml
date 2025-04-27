@@ -1,0 +1,7 @@
+name: "DETECTION_EVASION"
+description: >
+  URL-encoded SQL bypass attempt.
+payloads:
+  - id: detection_evasion
+    payload: "%27%20OR%20%271%27%3D%271"
+    description: URL-encoded SQL bypass attempt.

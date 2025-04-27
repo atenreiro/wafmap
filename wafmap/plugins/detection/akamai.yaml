@@ -1,0 +1,13 @@
+name: "Akamai"
+patterns:
+  - header: "server"
+    contains: "AkamaiGHost"
+  - header: "x-akamai"
+  - header: "x-dispatcher"
+  - header: "x-vhost"
+  - header: "mpulse_cdn_cache"
+  - header: "mpulse_origin_time"
+  - header: "Akamai-Origin-Hop"
+  - header: "Akamai-Request-ID"
+  - header: "x-akamai-edge-cache"
+  - header: "x-akamai-slashed"

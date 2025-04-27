@@ -1,0 +1,7 @@
+name: "BUFFER_OVERFLOW"
+description: >
+  Overflows buffer with excessive input.
+payloads:
+  - id: buffer_overflow
+    payload: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    description: Overflows buffer with excessive input.

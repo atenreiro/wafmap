@@ -1,0 +1,4 @@
+name: "BunnyCDN"
+patterns:
+  - header: "x-bunnycdn-cache-status"
+  - header: "x-bunnycdn-cache-hit"

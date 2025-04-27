@@ -1,0 +1,7 @@
+name: "PATH_TRAVERSAL"
+description: >
+  Classic directory traversal test.
+payloads:
+  - id: path_traversal
+    payload: "../../etc/passwd"
+    description: Classic directory traversal test.

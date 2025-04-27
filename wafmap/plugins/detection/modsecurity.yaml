@@ -1,0 +1,4 @@
+name: "ModSecurity"
+patterns:
+  - header: "x-modsec"
+  - header: "modsec-status"

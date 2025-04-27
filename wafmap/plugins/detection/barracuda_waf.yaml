@@ -1,0 +1,4 @@
+name: "Barracuda WAF"
+patterns:
+  - header: "x-barracuda"
+  - header: "x-barracuda-response"

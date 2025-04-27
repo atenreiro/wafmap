@@ -1,0 +1,187 @@
+{
+    "A10 Networks Thunder ADC": [
+        "x-a10",
+        "x-thunder-adc"
+    ],
+    "Akamai": [
+        "server: AkamaiGHost",
+        "x-akamai",
+        "x-dispatcher",
+        "x-vhost",
+        "mpulse_cdn_cache",
+        "mpulse_origin_time",
+        "Akamai-Origin-Hop",
+        "Akamai-Request-ID",
+        "x-akamai-edge-cache",
+        "x-akamai-slashed"
+    ],
+    "Amazon CloudFront": [
+        "server: cloudfront",
+        "x-amz-cf-pop",
+        "x-amz-cf-id",
+        "via: 1.1 cloudfront",
+        "x-edge-location",
+        "x-edge-result-type",
+        "x-edge-response-result-type",
+        "x-amz-cf-cache-status"
+    ],
+    "Apple": [
+        "x-apple-client-id",
+        "x-apple-server",
+        "x-apple-f5"
+    ],
+    "AWS WAF": [
+        "x-amzn-waf-",
+        "x-amz-security-token"
+    ],
+    "Barracuda WAF": [
+        "x-barracuda",
+        "x-barracuda-response"
+    ],
+    "BunnyCDN": [
+        "x-bunnycdn-cache-status",
+        "x-bunnycdn-cache-hit"
+    ],
+    "CacheFly": [
+        "x-cachefly",
+        "x-cache-status"
+    ],
+    "CDN77": [
+        "x-cdn77-cache-status",
+        "x-cdn77-request-id"
+    ],
+    "ChinaCache": [
+        "x-chinacache-cache-status",
+        "x-chinacache-request-id"
+    ],
+    "Cloudflare": [
+        "server: cloudflare",
+        "cf-ray",
+        "cf-cache-status",
+        "CF-Connecting-IP",
+        "cf-request-id",
+        "cf-ipcountry"
+    ],
+    "Cloudflare Workers": [
+        "cf-worker-request-id",
+        "cf-worker-cache-status"
+    ],
+    "Comodo WAF": [
+        "x-comodo-waf",
+        "x-comodo-protection"
+    ],
+    "Fastly": [
+        "x-fastly-request-id",
+        "x-served-by",
+        "x-timer",
+        "Fastly-Cachetype",
+        "fastly-cache-status"
+    ],
+    "F5 BIG-IP": [
+        "x-cnection-hash",
+        "x-f5-forwarded-for",
+        "x-f5-ssl-client-sdn"
+    ],
+    "Fortinet FortiWeb": [
+        "x-waf-id",
+        "x-waf",
+        "x-fortigate",
+        "x-fortinet-security"
+    ],
+    "Google Cloud CDN": [
+        "x-goog-cdn-loop",
+        "x-google-cache-status"
+    ],
+    "Imperva": [
+        "x-imperva-protection",
+        "x-cdn: Imperva",
+        "x-imperva-waf"
+    ],
+    "Incapsula": [
+        "x-incapsula-protection",
+        "x-incapsula-cdn",
+        "x-incapsula-request-id"
+    ],
+    "KeyCDN": [
+        "x-keycdn-cache-status",
+        "x-keycdn-request-id"
+    ],
+    "Meta": [
+        "x-meta-cache-status",
+        "x-facebook-cdn"
+    ],
+    "ModSecurity": [
+        "x-modsec",
+        "modsec-status"
+    ],
+    "Netlify": [
+        "server: Netlify",
+        "Netlify-Vary",
+        "X-NF-Request-ID",
+        "x-nf-ctoken"
+    ],
+    "NSFOCUS WAF": [
+        "x-nsfocus-waf",
+        "x-nsfocus-protection"
+    ],
+    "Oracle WAF": [
+        "zen-host",
+        "x-zen-fury",
+        "x-oracle-waf",
+        "x-zen-cache-status"
+    ],
+    "Palo Alto Networks WAF": [
+        "x-palo-alto-protection",
+        "x-palo-alto-headers"
+    ],
+    "Radware": [
+        "x-radware",
+        "x-radware-waf"
+    ],
+    "Rackspace Cloud Files": [
+        "x-rackspace-cdn-status",
+        "x-rackspace-cdn-cache"
+    ],
+    "SonicWall": [
+        "x-sonicwall",
+        "x-sonicwall-cache"
+    ],
+    "StackPath": [
+        "x-cache",
+        "x-stackpath-cache",
+        "x-stackpath-service"
+    ],
+    "Sucuri": [
+        "x-sucuri-id",
+        "x-sucuri-cache",
+        "sucuri_cloudproxy_guid",
+        "x-sucuri-cache-status"
+    ],
+    "SiteLock": [
+        "x-sitelock-protection",
+        "x-sitelock-cache"
+    ],
+    "Varnish": [
+        "x-varnish",
+        "via: 1.1 varnish",
+        "x-varnish-cache"
+    ],
+    "ZScaler WAF": [
+        "x-zscaler",
+        "x-zscaler-cache"
+    ],
+    "AWS CloudFront": [
+        "server: cloudfront",
+        "x-amz-cf-pop",
+        "x-amz-cf-id",
+        "via: 1.1 cloudfront",
+        "x-edge-location",
+        "x-edge-result-type",
+        "x-edge-response-result-type"
+    ],
+    "Quic.cloud": [
+        "x-quic-cache-status",
+        "x-quic-identifier"
+    ]
+  }
+  

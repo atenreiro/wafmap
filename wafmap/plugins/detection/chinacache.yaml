@@ -1,0 +1,4 @@
+name: "ChinaCache"
+patterns:
+  - header: "x-chinacache-cache-status"
+  - header: "x-chinacache-request-id"

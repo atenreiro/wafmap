@@ -1,0 +1,4 @@
+name: "CacheFly"
+patterns:
+  - header: "x-cachefly"
+  - header: "x-cache-status"

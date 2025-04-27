@@ -1,0 +1,4 @@
+name: "Meta"
+patterns:
+  - header: "x-meta-cache-status"
+  - header: "x-facebook-cdn"

@@ -1,0 +1,4 @@
+name: "SiteLock"
+patterns:
+  - header: "x-sitelock-protection"
+  - header: "x-sitelock-cache"

@@ -1,0 +1,7 @@
+name: "COMMAND_EXECUTION"
+description: >
+  Shell command injection via semicolon.
+payloads:
+  - id: command_execution
+    payload: "test; whoami"
+    description: Shell command injection via semicolon.

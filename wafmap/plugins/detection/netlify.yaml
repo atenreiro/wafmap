@@ -1,0 +1,7 @@
+name: "Netlify"
+patterns:
+  - header: "server"
+    contains: "Netlify"
+  - header: "Netlify-Vary"
+  - header: "X-NF-Request-ID"
+  - header: "x-nf-ctoken"

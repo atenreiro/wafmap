@@ -1,0 +1,4 @@
+name: "ZScaler WAF"
+patterns:
+  - header: "x-zscaler"
+  - header: "x-zscaler-cache"

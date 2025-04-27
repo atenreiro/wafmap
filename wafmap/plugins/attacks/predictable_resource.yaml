@@ -1,0 +1,7 @@
+name: "PREDICTABLE_RESOURCE"
+description: >
+  Requests hidden VCS file.
+payloads:
+  - id: predictable_resource
+    payload: "/.git/config"
+    description: Requests hidden VCS file.

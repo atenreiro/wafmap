@@ -1,0 +1,4 @@
+name: "CDN77"
+patterns:
+  - header: "x-cdn77-cache-status"
+  - header: "x-cdn77-request-id"

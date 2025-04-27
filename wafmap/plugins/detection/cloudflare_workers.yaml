@@ -1,0 +1,4 @@
+name: "Cloudflare Workers"
+patterns:
+  - header: "cf-worker-request-id"
+  - header: "cf-worker-cache-status"

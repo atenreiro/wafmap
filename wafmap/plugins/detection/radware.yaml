@@ -1,0 +1,4 @@
+name: "Radware"
+patterns:
+  - header: "x-radware"
+  - header: "x-radware-waf"

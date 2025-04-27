@@ -1,0 +1,9 @@
+name: "Cloudflare"
+patterns:
+  - header: "server"
+    contains: "cloudflare"
+  - header: "cf-ray"
+  - header: "cf-cache-status"
+  - header: "cf-connecting-ip"
+  - header: "cf-request-id"
+  - header: "cf-ipcountry"

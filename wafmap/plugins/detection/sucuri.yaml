@@ -1,0 +1,6 @@
+name: "Sucuri"
+patterns:
+  - header: "x-sucuri-id"
+  - header: "x-sucuri-cache"
+  - header: "sucuri_cloudproxy_guid"
+  - header: "x-sucuri-cache-status"
