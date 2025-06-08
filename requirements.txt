@@ -2,6 +2,6 @@ requests
 click 
 pytest   
 pyyaml
-prettytables
+prettytable
 ja4
 scapy
