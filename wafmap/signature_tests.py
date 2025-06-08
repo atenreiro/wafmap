@@ -1,7 +1,7 @@
 # wafmap/signature_tests.py
 
 import requests
-from typing import Dict, Union, Optional
+from typing import Dict, Union, Optional, List
 from wafmap.plugins import load_attack_plugins
 
 DEFAULT_BLOCKED_STATUSES = {400, 401, 403, 406, 429}
