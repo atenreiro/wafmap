@@ -24,6 +24,7 @@ def detect_http2(url: str, port: int = 443, timeout: float = 5.0, debug: bool = 
         } if debug else None
     }
 
+    sock: Optional[socket.socket] = None
     try:
         # Extract hostname
         hostname = urlparse(url).hostname or url.split('//')[-1].split('/')[0]
@@ -59,6 +60,7 @@ def detect_http2(url: str, port: int = 443, timeout: float = 5.0, debug: bool = 
         return result
 
     finally:
-        sock.close()
+        if sock:
+            sock.close()
     
     return result
